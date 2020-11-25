@@ -6,14 +6,14 @@ This repository has been created to host my first deployed portfolio. As a buddi
 
 ## Contents
 
-+index.html
-+portfolio.html
-+contact.html
-+.gitignore
-+readme.md
-+assets
--images
--css
+- index.html
+- portfolio.html
+- contact.html
+- .gitignore
+- readme.md
+- assets
+  - images
+  - css
 
 ## Deployed Link
 
