@@ -1,0 +1,92 @@
+* {
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+body {
+}
+
+#header {
+  padding: 0px;
+}
+
+.navbar {
+  background-color: teal;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  background-color: teal;
+  display: inline-block;
+}
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: teal;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+  color: greenyellow;
+}
+
+.line:hover {
+  background-color: greenyellow;
+}
+
+.ul {
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  background-color: teal;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.container-fluid#about {
+  background-color: #eeeeee;
+  padding-bottom: 60px;
+}
+
+#headshot {
+  float: left;
+  padding: 10px;
+  margin: 20px;
+}
+
+p {
+  font-size: 18px;
+  padding: 20px;
+}
+
+#aboutme {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#footer {
+  color: white;
+  font-size: 12px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  background-color: teal;
+}
