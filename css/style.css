@@ -82,11 +82,9 @@ p {
   padding-left: 30px;
 }
 
-#footer {
+.footer {
   color: white;
   font-size: 12px;
-  height: 40px;
   text-align: center;
-  padding: 10px;
   background-color: teal;
 }
