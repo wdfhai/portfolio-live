@@ -77,8 +77,10 @@ p {
   padding: 20px;
 }
 
-#aboutme {
-  padding-top: 20px;
+h2 {
+  font-size: 30px;
+  color: teal;
+  padding-top: 30px;
   padding-left: 30px;
 }
 
@@ -87,4 +89,8 @@ p {
   font-size: 8px;
   text-align: center;
   background-color: teal;
+}
+
+#form {
+  padding-bottom: 20px;
 }
