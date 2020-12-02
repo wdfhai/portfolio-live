@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #eeeeee;
 }
 
 #header {
@@ -63,7 +64,6 @@ li {
 }
 
 #content {
-  background-color: #eeeeee;
   padding: 40px 60px;
 }
 
