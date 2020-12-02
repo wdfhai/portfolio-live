@@ -108,3 +108,12 @@ h2 {
 #form {
   padding-bottom: 20px;
 }
+
+#p-img {
+  width: 250px
+  height 200px;
+}
+
+#p-link {
+  color: black;
+}
