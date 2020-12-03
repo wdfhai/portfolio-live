@@ -101,21 +101,11 @@ p {
   padding: 5px;
 }
 
-#form {
-  padding-bottom: 20px;
-}
-
-#p-img {
-  width: 200px
-  height 120px;
-  margin-bottom: 15px;
-}
-
-#p-link {
+.p-link {
   color: black;
 }
 
-#p-link:hover {
+.p-link:hover {
   color: teal;
 }
 
@@ -123,7 +113,7 @@ p {
   padding-bottom: 40px;
 }
 
-#p-img {
+.img-thumbnail {
   height: 150px;
   width: 250px;
 }
