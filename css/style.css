@@ -8,7 +8,6 @@ body {
   background-color: #eeeeee;
 }
 
-
 .navbar {
   background-color: teal;
 }
@@ -107,15 +106,24 @@ p {
 }
 
 #p-img {
-  width: 250px
-  height 200px;
+  width: 200px
+  height 120px;
+  margin-bottom: 15px;
 }
 
 #p-link {
   color: black;
 }
 
+#p-link:hover {
+  color: teal;
+}
+
+#p-content {
+  padding-bottom: 40px;
+}
+
 #p-img {
-  height: 120px;
-  width: 200px;
+  height: 150px;
+  width: 250px;
 }
