@@ -20,7 +20,7 @@ https://wdfhai.github.io/portfolio-live/index.html
 
 ## Preview
 
-<img href="images/about.png" height="400px" weight="600px">
+<img href="about.png" height="400px" weight="600px">
 
 ## Conclusion
 
