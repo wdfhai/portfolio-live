@@ -21,8 +21,6 @@ https://wdfhai.github.io/portfolio-live/index.html
 ## Preview
 
 <img href="./images/about.png" height="400px" weight="600px">
-<img href="./images/contact.png" height="400px" weight="600px">
-<img href="./images/portfolio.png"height="400px" weight="600px">
 
 ## Conclusion
 
