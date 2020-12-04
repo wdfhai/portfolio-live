@@ -11,13 +11,16 @@ This repository has been created to host my first deployed portfolio. As a buddi
 - contact.html
 - .gitignore
 - readme.md
-- assets
-  - images
-  - css
+- images
+- css
 
 ## Deployed Link
 
 ## Preview
+
+<img href="./images/about.png">
+<img href="./images/contact.png">
+<img href="./images/portfolio.png">
 
 ## Conclusion
 
