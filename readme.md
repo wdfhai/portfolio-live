@@ -16,11 +16,13 @@ This repository has been created to host my first deployed portfolio. As a buddi
 
 ## Deployed Link
 
+https://wdfhai.github.io/portfolio-live/index.html
+
 ## Preview
 
-<img href="./images/about.png">
-<img href="./images/contact.png">
-<img href="./images/portfolio.png">
+<img href="./images/about.png" height="400px" weight="600px">
+<img href="./images/contact.png" height="400px" weight="600px">
+<img href="./images/portfolio.png"height="400px" weight="600px">
 
 ## Conclusion
 
