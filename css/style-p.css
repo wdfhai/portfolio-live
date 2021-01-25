@@ -8,6 +8,8 @@ body {
 
 .navbar {
   background-color: teal;
+  /* position: fixed;
+  width: 100%; */
 }
 
 #nav-title {
