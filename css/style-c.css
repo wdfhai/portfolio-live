@@ -66,10 +66,10 @@ li {
 }
 
 h2,
-#connectWithMe {
+h4 {
   color: teal;
   font-weight: bolder;
-  padding: 10px 0px 10px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 #pic {
