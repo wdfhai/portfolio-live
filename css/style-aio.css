@@ -19,8 +19,13 @@ body {
   display: inline-block;
 }
 
-#switchMode {
+.nav-link {
   color: white;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: greenyellow;
 }
 
 .container-fluid {
