@@ -20,176 +20,191 @@
         <h1 id="nav-title">Fahad Hai</h1>
         <div class="collapse navbar-collapse" id="navbarcollapse">
             <ul class="nav navbar-nav ml-auto">
-                <li><a id="switchMode" class="nav-link"
-                        href="https://wdfhai.github.io/portfolio-live/index.html">Multi-page version</a></li>
+                <li><a id="switchMode" class="nav-link" href="https://wdfhai.github.io/portfolio-live/index.html"> Go to
+                        Multi-page version</a></li>
     </nav>
 
     <section class="container-fluid">
         <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="card">
+            <div class="col-lg-9 col-md-12">
+                <div class="card" id="infoCard">
                     <div class="card-header">
-                        <h3>About Me</h3>
+                        <p id="cardTitle">About Me</p>
                     </div>
-                    <div class="card-body scroll" id="info">
-                        <div class="col-sm-12">
-                            <p>My name is Fahad Hai, and I am a full stack web developer. I was born in Karachi,
-                                Pakistan,
-                                and
-                                I'm currently a US citizen and a resident of the beautiful city of Houston,
-                                Texas. I
-                                have a
-                                Bachelors degree in Medicine from Pakistan, but after immigrating I decided to
-                                change
-                                career
-                                paths. I worked for 9 years as a administrative assistant and lead concierge at
-                                Northshore
-                                Skokie Hospital in Chicago before moving to Texas in 2019.</p>
-                            <p>I chose software and web development as my future career because along with being
-                                a 'techie' I have always wanted to create content rather than just consume. Rice
-                                University
-                                helped me realize my potential as a web developer and from there I was never turning
-                                back. As I
-                                dove deeper into the field of web development I found it to be extremely
-                                interesting,intellectually
-                                rewarding and satisfying. I found it to be the one field that I would actually
-                                welcome and await challenges as they were the rungs on my ladder to my professional
-                                development.
-                            </p>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-3" id="headshotDiv">
+                                <img id="headshot" src="./images/IMG_6469.jpg" alt="Fahad's picture">
+                            </div>
+                            <div class="col-lg-8 col-sm-12 scroll" id="infoDiv">
+                                <div class="">
+                                    <p>My name is Fahad Hai, and I am a full stack web developer. I was born in Karachi,
+                                        Pakistan,
+                                        and
+                                        I'm currently a US citizen and a resident of the beautiful city of Houston,
+                                        Texas. I
+                                        have a
+                                        Bachelors degree in Medicine from Pakistan, but after immigrating I decided to
+                                        change
+                                        career
+                                        paths. I worked for 9 years as a administrative assistant and lead concierge at
+                                        Northshore
+                                        Skokie Hospital in Chicago before moving to Texas in 2019.</p>
+                                    <p>I chose software and web development as my future career because along with being
+                                        a 'techie' I have always wanted to create content rather than just consume. Rice
+                                        University
+                                        helped me realize my potential as a web developer and from there I was never
+                                        turning
+                                        back. As I
+                                        dove deeper into the field of web development I found it to be extremely
+                                        interesting,intellectually
+                                        rewarding and satisfying. I found it to be the one field that I would actually
+                                        welcome and await challenges as they were the rungs on my ladder to my
+                                        professional
+                                        development.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Contact Me</h3>
-                    </div>
-                    <div class="card-body scroll" id="contactFormDiv">
-                        <form class="input-control" id="contactForm">
-                            <label for="name">Your Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Tim Cook">
-                            <label for="company">Your Company</label>
-                            <input type="text" class="form-control" id="company" placeholder="Apple Inc.">
-                            <label for="email">Your Email Address</label>
-                            <input type="email" class="form-control" id="email" placeholder="the.boss@apple.com">
-                            <label for="textarea">Your Message</label>
-                            <textarea class="form-control" id="textarea" rows="5"
-                                placeholder="Please come work for me..."></textarea>
-                            <br>
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-12">
-                <div class="col-lg-12 col-md-6">
-                    <img id="headshot" src="./images/IMG_6469.jpg" alt="Fahad's picture">
-                </div>
-                <div class="col-lg-12 col-md-6">
-                    <div class="card" style="width: 100%;">
-                        <div class="card-header">
-                            <h3 id="connectWithMe">Connect</h3>
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="card" id="contactCard">
+                            <div class="card-header">
+                                <p id="cardTitle">Contact Me</p>
+                            </div>
+                            <div class="card-body scroll">
+                                <div class="scroll" id="contactFormDiv">
+                                    <form class="input-control" id="contactForm">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Tim Cook">
+                                        <label for="company">Your Company</label>
+                                        <input type="text" class="form-control" id="company" placeholder="Apple Inc.">
+                                        <label for="email">Your Email Address</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="the.boss@apple.com">
+                                        <label for="textarea">Your Message</label>
+                                        <textarea class="form-control" id="textarea" rows="5"
+                                            placeholder="Please come work for me..."></textarea>
+                                        <br>
+                                        <button type="submit" class="btn btn-primary">Send</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <a href="https://github.com/wdfhai?tab=repositories" target="_blank"
-                                alt="GitHub-link"><span><i class="fab fa-github"></i></span> GitHub
-                                Repositories</a>
-                            <a href="https://www.linkedin.com/in/f-h-5483a91ba/" target="_blank"
-                                alt="LinkedIn-link"><span><i class="fab fa-linkedin"></i></span> LinkedIn</a>
-                            <a href="https://twitter.com/wdfhai" target="_blank" alt="twitter-link"><span><i
-                                        class="fab fa-twitter"></i></span>
-                                Twitter</a>
-                            <a href="https://stackoverflow.com/users/14567046/fahad-h?tab=profile" target="_blank"
-                                alt="Stack-Overflow-Link"><span><i class="fab fa-stack-overflow"></i></span> Stack
-                                Overflow</a>
-                            <a href="https://drive.google.com/file/d/1375UaQhKGtBhX0mXOhYkBmJTejFwmhGh/view?usp=sharing"
-                                alt="Google-drive-link"><span><i class="fab fa-google-drive"></i></span></i></span> View
-                                my
-                                Resumé</a>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card" id="connectCard">
+                            <div class="card-header">
+                                <p id="cardTitle">Connect</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://github.com/wdfhai?tab=repositories" target="_blank"
+                                    alt="GitHub-link"><span><i class="fab fa-github"></i></span> GitHub
+                                    Repositories</a>
+                                <a href="https://www.linkedin.com/in/f-h-5483a91ba/" target="_blank"
+                                    alt="LinkedIn-link"><span><i class="fab fa-linkedin"></i></span> LinkedIn</a>
+                                <a href="https://twitter.com/wdfhai" target="_blank" alt="twitter-link"><span><i
+                                            class="fab fa-twitter"></i></span>
+                                    Twitter</a>
+                                <a href="https://stackoverflow.com/users/14567046/fahad-h?tab=profile" target="_blank"
+                                    alt="Stack-Overflow-Link"><span><i class="fab fa-stack-overflow"></i></span> Stack
+                                    Overflow</a>
+                                <a href="https://drive.google.com/file/d/1375UaQhKGtBhX0mXOhYkBmJTejFwmhGh/view?usp=sharing"
+                                    alt="Google-drive-link"><span><i class="fab fa-google-drive"></i></span></i></span>
+                                    View
+                                    my
+                                    Resumé</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-12">
-                <div class="card">
+                <div class="card" id="portfolioCard">
                     <div class="card-header">
-                        <h3>My Portfolio</h3>
+                        <p id="cardTitle">My Portfolio</p>
                     </div>
-                    <div class="card-body scroll">
-                        <ol class="col-sm-12">
-                            <li class="col-sm-12">
-                                <a class="p-link" href="https://joeseff6.github.io/Suitcase/" target="_blank">
-                                    <img src="./images/Suitcase - screenshot.png" id="p-img"
-                                        alt="Screenshot of Suitcase app">
-                                    <p class="p-title">Suitcase - Your new favorite travel app! <span><a href="#"
-                                                target="_blank" alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="https://wdfhai.github.io/rain_or_shine/" target="_blank">
-                                    <img src="./images/Rain or Shine - Screenshot.png" alt="screenshot of weather app"
-                                        id="p-img">
-                                    <p class="p-title">Rain or Shine - a simple weather dashboard <span><a href="#"
-                                                target="_blank" alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="https://wdfhai.github.io/console.log.skills/" target="_blank">
-                                    <img src="./images/Console Log Skills - screenshot.png" alt="screenshot of quiz app"
-                                        id="p-img">
-                                    <p class="p-title">console.log(skills) - a basic quiz app <span><a href="#"
-                                                target="_blank" alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="https://wdfhai.github.io/daily_game_plan/" target="_blank">
-                                    <img src="./images/Daily Game Plan - sreenshot.png"
-                                        alt="screenshot of daily planner app" id="p-img">
-                                    <p class="p-title">Daily Game Plan <span><a href="#" target="_blank"
-                                                alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="https://wdfhai.github.io/password-generator/index.html"
-                                    target="_blank">
-                                    <img src="./images/Password Generator - screenshot.png"
-                                        alt="screenshot of password app" id="p-img">
-                                    <p class="p-title">Password Generator <span><a href="#" target="_blank"
-                                                alt="link to github repo">(GitHub)</a> </span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="#">
-                                    <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1955&q=80"
-                                        alt="Picture of Post-It notes" id="p-img">
-                                    <p class="p-title">Note Taker (Coming Soon) <span><a href="#" target="_blank"
-                                                alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="#">
-                                    <img src="https://images.unsplash.com/photo-1567427013953-88102117053a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-                                        alt="Picture of a piggy bank" id="p-img">
-                                    <p class="p-title">Progressive Budget (Coming Soon) <span><a href="#"
-                                                target="_blank" alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="#">
-                                    <img src="https://images.unsplash.com/photo-1493690283958-32df2c86326e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1948&q=80"
-                                        alt="Picture of a pair of dumbells" id="p-img">
-                                    <p class="p-title">Fitness Tracker (Coming Soon) <span><a href="#" target="_blank"
-                                                alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                            <li class="col-sm-12">
-                                <a class="p-link" href="#">
-                                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-                                        alt="Picture of a hand shake" id="p-img">
-                                    <p class="p-title">Employee Management System (Coming Soon) <span><a href="#"
-                                                target="_blank" alt="link to github repo">(GitHub)</a></span></p>
-                                </a>
-                            </li>
-                        </ol>
+                    <div class="card-body">
+                        <div class="scroll" id="portfolioScroll">
+                            <ol class="col-sm-12">
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="https://joeseff6.github.io/Suitcase/" target="_blank">
+                                        <img src="./images/Suitcase - screenshot.png" id="p-img"
+                                            alt="Screenshot of Suitcase app">
+                                        <p class="p-title">Suitcase - Your new favorite travel app! <span><a href="#"
+                                                    target="_blank" alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="https://wdfhai.github.io/rain_or_shine/" target="_blank">
+                                        <img src="./images/Rain or Shine - Screenshot.png"
+                                            alt="screenshot of weather app" id="p-img">
+                                        <p class="p-title">Rain or Shine - a simple weather dashboard <span><a href="#"
+                                                    target="_blank" alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="https://wdfhai.github.io/console.log.skills/"
+                                        target="_blank">
+                                        <img src="./images/Console Log Skills - screenshot.png"
+                                            alt="screenshot of quiz app" id="p-img">
+                                        <p class="p-title">console.log(skills) - a basic quiz app <span><a href="#"
+                                                    target="_blank" alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="https://wdfhai.github.io/daily_game_plan/" target="_blank">
+                                        <img src="./images/Daily Game Plan - sreenshot.png"
+                                            alt="screenshot of daily planner app" id="p-img">
+                                        <p class="p-title">Daily Game Plan <span><a href="#" target="_blank"
+                                                    alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="https://wdfhai.github.io/password-generator/index.html"
+                                        target="_blank">
+                                        <img src="./images/Password Generator - screenshot.png"
+                                            alt="screenshot of password app" id="p-img">
+                                        <p class="p-title">Password Generator <span><a href="#" target="_blank"
+                                                    alt="link to github repo">(GitHub)</a> </span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="#">
+                                        <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1955&q=80"
+                                            alt="Picture of Post-It notes" id="p-img">
+                                        <p class="p-title">Note Taker (Coming Soon) <span><a href="#" target="_blank"
+                                                    alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="#">
+                                        <img src="https://images.unsplash.com/photo-1567427013953-88102117053a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                                            alt="Picture of a piggy bank" id="p-img">
+                                        <p class="p-title">Progressive Budget (Coming Soon) <span><a href="#"
+                                                    target="_blank" alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="#">
+                                        <img src="https://images.unsplash.com/photo-1493690283958-32df2c86326e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1948&q=80"
+                                            alt="Picture of a pair of dumbells" id="p-img">
+                                        <p class="p-title">Fitness Tracker (Coming Soon) <span><a href="#"
+                                                    target="_blank" alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                                <li class="col-sm-12">
+                                    <a class="p-link" href="#">
+                                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                                            alt="Picture of a hand shake" id="p-img">
+                                        <p class="p-title">Employee Management System (Coming Soon) <span><a href="#"
+                                                    target="_blank" alt="link to github repo">(GitHub)</a></span></p>
+                                    </a>
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
