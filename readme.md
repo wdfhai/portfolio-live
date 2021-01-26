@@ -1,12 +1,7 @@
-[![Contributors][contributors-shield]][0]
-[![MIT License][license-shield]][mit]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/f-h-5483a91ba/]
-
+![GitHub](https://img.shields.io/github/license/wdfhai/portfolio-live?style=for-the-badge)
 <br />
+
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">My Portfolio</h3>
 
@@ -76,7 +71,7 @@ The portfolio can be viewed as an all-in-one (or AIO) or a multi-page version.
 
 Like any great portfolio, this one is designed to scale with my career while required minimum refactoring as future projects get added.
 
-## Contributors
+## Contributors/ Teammates
 
 - Contributors to individual projects are listed under that project.
 
