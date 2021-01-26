@@ -10,7 +10,7 @@
     <br />
     <a href="https://github.com/wdfhai/portfolio-live"><strong>Explore the docs »</strong></a>
     .
-    <a href="https://wdfhai.github.io/portfolio-live/">View Demo</a>
+    <a href="https://wdfhai.github.io/portfolio-live/index-aio.html">View Demo</a>
   </p>
 </p>
 
