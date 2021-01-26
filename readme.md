@@ -1,31 +1,3 @@
-# Portfolio repo for Fahad Hai
-
-## Introduction
-
-This repository has been created to host my first deployed portfolio. As a budding developer, this will continue to grow and change over time, reflecting growth in my knowledge and skills.
-
-## Contents
-
-- index.html
-- portfolio.html
-- contact.html
-- .gitignore
-- readme.md
-- images
-- css
-
-## Deployed Link
-
-https://wdfhai.github.io/portfolio-live/index.html
-
-## Preview
-
-<img src="about.png" height="400px" weight="600px">
-
-## Conclusion
-
-Thank you for visiting my repository for my portfolio. It is and always will be a work in progress, as learning is a perpetual process. Hopefully it reflects well on my growth as a software and web developer. Cheers!
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -33,30 +5,23 @@ Thank you for visiting my repository for my portfolio. It is and always will be 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Project Name</h3>
+  <h3 align="center">My Portfolio</h3>
 
   <p align="center">
-    Project tagline
+    A portfolio for my work
     <br />
-    <a href="#"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#">View Demo</a>
-    ·
-    <a href="#">Report Bug</a>
-    ·
-    <a href="#">Request Feature</a>
+    <a href="https://github.com/wdfhai/portfolio-live"><strong>Explore the docs »</strong></a>
+    .
+    <a href="https://wdfhai.github.io/portfolio-live/">View Demo</a>
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -82,92 +47,44 @@ Thank you for visiting my repository for my portfolio. It is and always will be 
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](.images/portfolio-aio-preview.png)
 
-Here's why:
+A portfolio is like a digital handshake. The first time you interact with it, you can instantly infer certain qualities about the owner. The first impression may not be the last impression, but it is certainly the most important one. I started designing this portfolio after going through HTML/CSS for 10 hrs, and it has since evolved along with my knowledge of coding, and it will continue to do so throughout my career.
 
--
--
-- You should element DRY principles to the rest of your life :smile:
+Some elements I considered highly for my portfolio were:
+
+- a clean and modern UI,
+- an intuitive design with well-implemented features,
+- code that is as DRY as possible, which is easier said than done :smile:
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [Bootstrap](https://getbootstrap.com)
-- [Foundation](#)
-- [JQuery](https://jquery.com)
-- [SVGs](#)
-- [SASS](#)
-- [NodeJS](#)
-- [React](#)
-- [Firebase](#)
-- [MySQL](#)
-- [Python](#)
-- [Java](#)
-- [Laravel](https://laravel.com)
-
-<!-- GETTING STARTED -->
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<!-- USAGE EXAMPLES -->
+Check out the 'View Demo' link above. Try both the single and multi-page versions.
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The portfolio can be viewed as an all-in-one (or AIO) or a multi-page version.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- ROADMAP -->
+<img src="./images/portfolio-aio-preview.png" height="200px" width="300px" alt="preview of AIO version">
+<br>
+<img src="./images/portfolio-multi-preview.png" height="200px" width="300px" alt="preview of multi-page version">
+<br>
 
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
+Like any great portfolio, this one is designed to scale with my career while required minimum refactoring as future projects get added.
 
 ## Contributors/ Teammates
 
-1.
-2.
-3.
-4.
-5.
+- Contributors to individual projects are listed under that project.
 
 ## Contributing
 
@@ -179,41 +96,17 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
 
 ## Contact
 
 Fahad Hai - [@wdfhai](https://twitter.com/wdfhai) - wd.fhai@outlook.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<!-- ACKNOWLEDGEMENTS -->
+My Github: [wdfhai](https://github.com/wdfhai)
 
 ## Acknowledgements
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [Loaders.css](https://connoratherton.com/loaders)
-- [Slick Carousel](https://kenwheeler.github.io/slick)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Sticky Kit](http://leafo.net/sticky-kit)
-- [JVectorMap](http://jvectormap.com)
-- [Font Awesome](https://fontawesome.com)
-- [Moment API](#)
-- [OpenWeatherMap API](#)
-- [Rapid API](#)
-
-  <!-- MARKDOWN LINKS & IMAGES -->
-  <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
@@ -227,7 +120,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/portfolio-aio-preview.png
 
 ### Credit
 
