@@ -38,8 +38,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](.images/portfolio-aio-preview.png)
-
 A portfolio is like a digital handshake. The first time you interact with it, you can instantly infer certain qualities about the owner. The first impression may not be the last impression, but it is certainly the most important one. I started designing this portfolio after going through HTML/CSS for 10 hrs, and it has since evolved along with my knowledge of coding, and it will continue to do so throughout my career.
 
 Some elements I considered highly for my portfolio were:
