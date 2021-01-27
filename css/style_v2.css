@@ -1,0 +1,142 @@
+html * {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+  height: 100%;
+}
+
+.navbar {
+  background-color: black;
+  height: 60px;
+}
+
+#nav-title {
+  margin: 10px;
+  font-weight: bolder;
+  color: white;
+  display: inline-block;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: greenyellow;
+}
+
+.container {
+  height: 700px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+h1 {
+  color: teal;
+  line-height: 3rem;
+}
+
+#aboutSec,
+#contactSec,
+#portfolioSec,
+#extraSec {
+  height: 175px;
+}
+
+button {
+  width: 100%;
+  background-color: darkgray;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+button:active {
+  background: #f4f3f3;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+button.pressed {
+  background-color: white;
+  color: teal;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-right: none;
+}
+
+#mainBar {
+  height: 700px;
+  background-color: darkgrey;
+}
+
+#mainCard {
+  height: 700px;
+  width: 100%;
+  background-color: #eee;
+  border: 2px solid black;
+}
+
+#headshot {
+  height: 300px;
+  width: 220px;
+  float: right;
+}
+
+#infoDiv {
+  height: 150px;
+  margin: 15px 0px 15px 10px;
+}
+
+a {
+  display: block;
+  font-size: 20px;
+  margin: 5px 0px 5px 0px;
+}
+
+#divViewMyPortfolio {
+  height: 699px;
+  width: 100%;
+  padding: 4px;
+  background-color: #eee;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: justify;
+  align-items: center;
+}
+
+#portfolio {
+  margin: 15px 20px 15px 40px;
+}
+
+#p-img {
+  height: 250px;
+  width: 450px;
+  margin: 10px 10px 5px;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 25px;
+}
+
+#footertext {
+  font-size: 25px;
+  margin: 10px;
+}
