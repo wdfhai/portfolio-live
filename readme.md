@@ -10,7 +10,7 @@
     <br />
     <a href="https://github.com/wdfhai/portfolio-live"><strong>Explore the docs »</strong></a>
     .
-    <a href="https://wdfhai.github.io/portfolio-live/index-aio.html">View Demo</a>
+    <a href="https://wdfhai.github.io/portfolio-live/index.html">View Deployed Version</a>
   </p>
 </p>
 
@@ -51,23 +51,29 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 - [Bootstrap](https://getbootstrap.com)
+- [JQuery](https://jquery.com/)
 
 ## Getting Started
 
-Check out the 'View Demo' link above. Try both the single and multi-page versions.
+Check out the 'View Deployed Version' link above, or click <span><a href="https://wdfhai.github.io/portfolio-live/index.html" alt="link to deployed version"><em>here.</em></a></span>
 
 ## Usage
 
-The portfolio can be viewed as an all-in-one (or AIO) or a multi-page version.
+The portfolio can be viewed as version 2, which includes a new design and JavaScript/JQuery, or version 1, based purely on HTML5/CSS3. Version 1 also has an all-in-one (or AIO) or a multi-page version.
 
-<img src="./images/portfolio-aio-preview.png" height="200px" width="300px" alt="preview of AIO version">
+<h3>version 2</h3>
+<img src="./images/v2_preview.png" height="200px" width="300px" alt="preview of version 2">
 <br>
-<img src="./images/portfolio-multi-preview.png" height="200px" width="300px" alt="preview of multi-page version">
+<h3>version 1 - All In One</h3>
+<img src="./previous_versions/images/portfolio_v1-aio-preview.png" height="200px" width="300px" alt="preview of AIO version">
+<br>
+<h3>version 1 - Multi-Page</h3>
+<img src="./previous_versions/images/portfolio_v1-multi-preview.png" height="200px" width="300px" alt="preview of multi-page version">
 <br>
 
 ## Roadmap
 
-Like any great portfolio, this one is designed to scale with my career while required minimum refactoring as future projects get added.
+Like any great portfolio, this one is designed to not only display my latest and best work, but to also show my evolution as a developer.
 
 ## Contributors/ Teammates
 
