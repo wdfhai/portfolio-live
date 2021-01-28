@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  background-color: black;
+  background-color: teal;
   height: 60px;
 }
 
@@ -34,7 +34,8 @@ body {
   margin-top: 30px;
 }
 
-h1 {
+h1,
+h3 {
   color: teal;
   line-height: 3rem;
 }
@@ -48,6 +49,7 @@ h1 {
 
 button {
   width: 100%;
+  font-size: 25px;
   background-color: darkgray;
 }
 
@@ -85,19 +87,37 @@ button.pressed {
   border: 2px solid black;
 }
 
+#divAboutMe {
+  overflow: auto;
+  margin: 15px 10px 30px 15px;
+}
+
 #headshot {
   height: 300px;
   width: 220px;
-  float: right;
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: none;
+  -moz-box-shadow: 5px 5px 5px #bbbbbb;
+  -webkit-box-shadow: 5px 5px 5px #bbb;
 }
 
-#infoDiv {
-  height: 150px;
-  margin: 15px 0px 15px 10px;
+#introText,
+#introText2,
+#headshot {
+  display: block;
+}
+
+#divConnectWithMe {
+  overflow: auto;
 }
 
 a {
   display: block;
+  color: #0077b6;
   font-size: 20px;
   margin: 5px 0px 5px 0px;
 }
@@ -107,14 +127,13 @@ a {
   width: 100%;
   padding: 4px;
   background-color: #eee;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  text-align: justify;
-  align-items: center;
 }
 
 #portfolio {
   margin: 15px 20px 15px 40px;
+  height: 500px;
+  border: 1px dashed darkgray;
+  overflow: auto;
 }
 
 #p-img {
@@ -125,7 +144,7 @@ a {
 
 .footer {
   color: white;
-  background-color: black;
+  background-color: teal;
   position: fixed;
   left: 0;
   bottom: 0;
