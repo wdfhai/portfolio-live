@@ -57,17 +57,9 @@ Check out the 'View Deployed Version' link above, or click <span><a href="https:
 
 ## Usage
 
-The portfolio can be viewed as version 2, which includes a new design and significant JavaScript/JQuery implementation, or version 1, based mostly on HTML5/CSS3 (other than a modal). Version 1 also has an all-in-one (or AIO) or a multi-page version.
+Explore at your leisure!
 
-<h3>version 2</h3>
-<img src="./images/v2_preview.png" height="200px" width="300px" alt="preview of version 2">
-<br>
-<h3>version 1 - All In One</h3>
-<img src="./previous_versions/images/portfolio_v1-aio-preview.png" height="200px" width="300px" alt="preview of AIO version">
-<br>
-<h3>version 1 - Multi-Page</h3>
-<img src="./previous_versions/images/portfolio_v1-multi-preview.png" height="200px" width="300px" alt="preview of multi-page version">
-<br>
+<img src="./images/v2_preview.png" height="200px" width="300px" alt="preview">
 
 ## Roadmap
 
