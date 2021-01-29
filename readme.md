@@ -3,13 +3,11 @@
 
 <p align="center">
 
-  <h3 align="center">My Portfolio</h3>
+  <h3 align="center">Fahad's Portfolio</h3>
 
   <p align="center">
-    A portfolio for my work
+    A live portfolio highlighting my work
     <br />
-    <a href="https://github.com/wdfhai/portfolio-live"><strong>Explore the docs »</strong></a>
-    .
     <a href="https://wdfhai.github.io/portfolio-live/index.html">View Deployed Version</a>
   </p>
 </p>
