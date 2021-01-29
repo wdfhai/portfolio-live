@@ -4,10 +4,12 @@ html * {
 }
 
 body {
+  height: 100%;
 }
 
 .navbar {
   background-color: teal;
+  height: 60px;
 }
 
 #nav-title {
@@ -17,88 +19,127 @@ body {
   display: inline-block;
 }
 
-.navbar-toggler {
-  width: 47px;
-  height: 34px;
-  background-color: teal;
-  position: fixed;
-  top: 20px;
-  right: 10px;
+.nav-link {
+  color: white;
+  font-size: 20px;
 }
 
-.navbar-toggler .line {
-  width: 100%;
-  float: left;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 5px;
-}
-.navbar-brand:hover,
 .nav-link:hover {
   color: greenyellow;
 }
 
-.card {
-  margin: 50px 10px 35px 10px;
-  background-color: #eeeeee;
+.container {
+  height: 700px;
+  border: 1px solid black;
+  margin-top: 30px;
 }
 
-.card-header {
-  background-color: #ccc;
-}
-
-.line:hover {
-  background-color: greenyellow;
-}
-
-li {
-  color: white;
-  font-size: 20px;
-  padding-left: 30px;
-  background-color: teal;
-}
-
-.nav-link {
-  color: white;
-  font-size: 20px;
-  font-weight: 500;
-  padding-left: 20px;
-}
-
-h2,
-#connectWithMe {
+h1,
+h3 {
   color: teal;
-  font-weight: bolder;
-  padding: 10px 0px 10px 0px;
+  line-height: 3rem;
 }
 
-#pic {
-  height: fit-content;
+#aboutSec,
+#contactSec,
+#portfolioSec,
+#extraSec {
+  height: 175px;
+}
+
+button {
+  width: 100%;
+  font-size: 25px;
+  background-color: darkgray;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+button:active {
+  background: #f4f3f3;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+button.pressed {
+  background-color: white;
+  color: teal;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-right: none;
+}
+
+#mainBar {
+  height: 700px;
+  background-color: darkgrey;
+}
+
+#mainCard {
+  height: 700px;
+  width: 100%;
+  background-color: #eee;
+  border: 2px solid black;
+}
+
+#divAboutMe {
+  overflow: auto;
+  margin: 15px 10px 30px 15px;
 }
 
 #headshot {
   height: 300px;
-  width: 100%;
+  width: 220px;
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: none;
+  -moz-box-shadow: 5px 5px 5px #bbbbbb;
+  -webkit-box-shadow: 5px 5px 5px #bbb;
+}
+
+#introText,
+#introText2,
+#headshot {
   display: block;
 }
 
-p {
-  font-size: 18px;
-  padding: 20px;
+#divConnectWithMe {
+  overflow: auto;
 }
 
 a {
   display: block;
+  color: #0077b6;
+  font-size: 20px;
+  margin: 5px 0px 5px 0px;
 }
 
-#p-row {
-  margin: 15px;
+#divViewMyPortfolio {
+  height: 699px;
+  width: 100%;
+  padding: 4px;
+  background-color: #eee;
 }
 
-label {
-  margin-bottom: 8px;
-  margin-top: 12px;
-  font-weight: bold;
+#portfolio {
+  margin: 15px 20px 15px 40px;
+  height: 500px;
+  border: 1px dashed darkgray;
+  overflow: auto;
+}
+
+#p-img {
+  height: 250px;
+  width: 450px;
+  margin: 10px 10px 5px;
 }
 
 .footer {
@@ -107,38 +148,53 @@ label {
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 30px;
+  height: 50px;
   width: 100%;
   text-align: center;
-  padding: 0px;
-  margin-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 25px;
 }
 
 #footertext {
-  font-size: 15px;
-  padding: 5px;
+  font-size: 25px;
+  margin: 10px;
 }
 
-.p-link {
-  color: black;
-}
-
-.p-link:hover {
+.splash,
+.splash.fade-out {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background-color: black;
   color: teal;
+  text-align: center;
 }
 
-#p-content {
-  padding-bottom: 40px;
+.splash.fade-out {
+  opacity: 0;
+  z-index: -10;
+  text-align: center;
+  transition: all 1s;
 }
 
-#p-img {
-  height: 200px;
-  width: 300px;
-  border: 1px solid #fff;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  box-shadow: none;
-  -moz-box-shadow: 5px 5px 5px #bbbbbb;
-  -webkit-box-shadow: 5px 5px 5px #bbb;
+.splash.display-none {
+  display: none;
+}
+
+#splashTitle {
+  line-height: 1000px;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in1 {
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
 }

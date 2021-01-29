@@ -86,3 +86,19 @@ function clearContactForm (){
     $("#email")[0].value = null ;
     $("#textarea")[0].value = null;
 }
+
+function makeSplash (){
+    var splash = $(".splash");
+    setTimeout (()=>{
+      splash.addClass("fade-out");
+    },3500);
+    makeFunctional();
+  };
+  function makeFunctional (){
+    var splash = $(".splash");
+    setTimeout (()=>{
+      splash.addClass("display-none");
+    },4500);
+  }
+  
+  $("document").ready(makeSplash);
