@@ -57,7 +57,7 @@ Check out the 'View Deployed Version' link above, or click <span><a href="https:
 
 ## Usage
 
-The portfolio can be viewed as version 2, which includes a new design and JavaScript/JQuery, or version 1, based purely on HTML5/CSS3. Version 1 also has an all-in-one (or AIO) or a multi-page version.
+The portfolio can be viewed as version 2, which includes a new design and significant JavaScript/JQuery implementation, or version 1, based mostly on HTML5/CSS3 (other than a modal). Version 1 also has an all-in-one (or AIO) or a multi-page version.
 
 <h3>version 2</h3>
 <img src="./images/v2_preview.png" height="200px" width="300px" alt="preview of version 2">
