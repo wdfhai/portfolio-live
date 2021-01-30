@@ -136,10 +136,46 @@ a {
   overflow: auto;
 }
 
+#pinned {
+  border: 1px solid black;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: none;
+  -moz-box-shadow: 5px 5px 5px #bbbbbb;
+  -webkit-box-shadow: 5px 5px 5px #bbb;
+  margin: 10px;
+}
+
 #p-img {
   height: 250px;
   width: 450px;
   margin: 10px 10px 5px;
+}
+
+#divViewMyBest {
+  overflow: auto;
+}
+
+#pinnedImg {
+  height: 150px;
+  width: 200px;
+  margin: 10px;
+}
+
+#pinnedLink {
+  color: teal;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#pinnedGitHubLink {
+  color: teal;
+  margin: 5px;
+}
+
+#pinnedDesc {
+  margin: 10px;
 }
 
 .footer {
