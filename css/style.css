@@ -34,6 +34,12 @@ body {
   margin-top: 30px;
 }
 
+#patientDashboardImg {
+  height: 200px;
+  width: 175px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
 h1,
 h3 {
   color: teal;
