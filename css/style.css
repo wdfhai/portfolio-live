@@ -30,8 +30,8 @@ body {
 
 .container {
   height: 700px;
-  border: 1px solid black;
   margin-top: 30px;
+  box-shadow: 2px 4px 4px 4px grey;
 }
 
 #patientDashboardImg {
